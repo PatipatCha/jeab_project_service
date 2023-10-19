@@ -17,4 +17,5 @@ type Project struct {
 	Status           string  `gorm:"not null" validate:"required" json:"status"`
 	DistanceLocation float32 `gorm:"default:null" json:"distance_location"`
 	HistoryAmount    int8    `gorm:"default:null" json:"history_amount"`
+	ImageLogo        string  `gorm:"default:null" json:"image_logo"`
 }
